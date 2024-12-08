@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "yarn build && npx thirdweb@latest upload dist",
-    "db:push": "drizzle-kit push",
+    "db:push": "drizzle-kit push --config src/drizzle.config.js",
     "db:studio": "npx drizzle-kit studio"
   },
   "dependencies": {
